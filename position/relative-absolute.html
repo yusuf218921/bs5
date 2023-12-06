@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="../global.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relative-Absolute</title>
+  </head>
+  <body>
+    <div
+      class="container my-5 mh-100 bg-secondary position-relative"
+      style="height: 600px"
+    >
+      <div class="row">
+        <div class="col-12 d-flex">
+          <div
+            class="Box me-4 border border-dark border-5 position-absolute translate-middle top-0 start-50"
+          >
+            Box 1
+          </div>
+          <div
+            class="Box me-4 border border-dark border-5 position-absolute translate-middle top-0 start-100"
+          >
+            Box 3
+          </div>
+          <div
+            class="Box me-4 border border-dark border-5 position-absolute translate-middle top-50 start-100"
+          >
+            Box 8
+          </div>
+          <div
+            class="Box me-4 border border-dark border-5 position-absolute translate-middle top-50 start-50"
+          >
+            Box 9
+          </div>
+          <div
+            class="Box me-4 border border-dark border-5 position-absolute translate-middle top-50 start-0"
+          >
+            Box 10
+          </div>
+          <div
+            class="Box me-4 border border-dark border-5 position-absolute translate-middle top-100 start-0"
+          >
+            Box 11
+          </div>
+          <div
+            class="Box me-4 border border-dark border-5 position-absolute translate-middle top-100 start-100"
+          >
+            Box 12
+          </div>
+          <div
+            class="Box me-4 border border-dark border-5 position-absolute translate-middle top-100 start-50"
+          >
+            Box 12
+          </div>
+          <div
+            class="Box me-4 border border-dark border-5 position-absolute translate-middle"
+          >
+            Box 2
+          </div>
+          <div
+            class="Box border border-dark border-5 position-absolute bottom-0 end-0"
+          >
+            Box 4
+          </div>
+          <div
+            class="Box border border-dark border-5 position-absolute bottom-0 start-0"
+          >
+            Box 5
+          </div>
+          <div
+            class="Box border border-dark border-5 position-absolute top-0 end-0"
+          >
+            Box 6
+          </div>
+          <div
+            class="Box border border-dark border-5 position-absolute top-0 start-0"
+          >
+            Box 7
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="margin-bottom: 15rem"></div>
+    <div
+      class="container my-5 mh-100 bg-secondary position-relative"
+      style="height: 600px"
+    >
+      <div class="row">
+        <div class="col-12 d-flex">
+          <div
+            class="Box border border-dark border-5 position-absolute translate-middle-x top-0 start-50"
+          >
+            Box 1
+          </div>
+          <div
+            class="Box border border-dark border-5 position-absolute translate-middle-y top-50 start-0"
+          >
+            Box 8
+          </div>
+          <div
+            class="Box border border-dark border-5 position-absolute translate-middle top-50 start-50"
+          >
+            Box 9
+          </div>
+          <div
+            class="Box border border-dark border-5 position-absolute bottom-0 end-0"
+          >
+            Box 4
+          </div>
+          <div
+            class="Box border border-dark border-5 position-absolute bottom-0 start-0"
+          >
+            Box 5
+          </div>
+          <div
+            class="Box border border-dark border-5 position-absolute top-0 end-0"
+          >
+            Box 6
+          </div>
+          <div
+            class="Box border border-dark border-5 position-absolute top-0 start-0"
+          >
+            Box 7
+          </div>
+          <div
+            class="Box border border-dark border-5 position-absolute top-50 end-0 translate-middle-y"
+          >
+            Box 2
+          </div>
+          <div
+            class="Box border border-dark border-5 position-absolute bottom-0 start-50 translate-middle-x"
+          >
+            Box 2
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
