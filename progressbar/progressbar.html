@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>progressbar</title>
+  </head>
+  <body>
+    <div class="container my-4 p-3">
+      <div class="row">
+        <div class="col-12">
+          <div class="progress mb-4" style="height: 3px">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              aria-valuemin="0"
+              aria-valuenow="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <div class="progress mb-4" style="height: 5px">
+            <div
+              class="progress-bar w-25 bg-warning"
+              role="progressbar"
+              aria-valuemin="0"
+              aria-valuenow="25"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <div class="progress mb-4">
+            <div
+              class="progress-bar w-50 bg-success"
+              role="progressbar"
+              aria-valuemin="0"
+              aria-valuenow="50"
+              aria-valuemax="100"
+            >
+              %50
+            </div>
+          </div>
+          <div class="progress mb-4">
+            <div
+              class="progress-bar w-75"
+              role="progressbar"
+              aria-valuemin="0"
+              aria-valuenow="75"
+              aria-valuemax="100"
+            >
+              %75
+            </div>
+          </div>
+          <div class="progress mb-4">
+            <div
+              class="progress-bar bg-info w-100 progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuemin="0"
+              aria-valuenow="100"
+              aria-valuemax="100"
+            >
+              %100
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
