@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tab Panel</title>
+  </head>
+  <body>
+    <div class="container my-4 p-3">
+      <div class="row row-cols-2">
+        <div class="col">
+          <ol class="list-group list-group-numbered">
+            <li
+              class="list-group-item d-flex justify-content-center align-items-start"
+            >
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Backend</div>
+                Php, Asp, NodeJs, Python
+              </div>
+              <span class="badge bg-danger rounded-pill">12</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-center align-items-start"
+            >
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Deneme</div>
+                Php, Asp, NodeJs, Python
+              </div>
+              <span class="badge bg-danger rounded-pill">12</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-center align-items-start"
+            >
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Frontend</div>
+                Php, Asp, NodeJs, Python
+              </div>
+              <span class="badge bg-danger rounded-pill">12</span>
+            </li>
+          </ol>
+        </div>
+        <div class="col">
+          <div class="list-group">
+            <a
+              href="#"
+              class="list-group-item list-group-item-action active"
+              aria-current="true"
+            >
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">List Group Başlığı</h5>
+                <small> 1 gün önce</small>
+              </div>
+              <p class="mb-1">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perspiciatis obcaecati autem illo omnis dolorum accusamus nisi
+                aliquam dignissimos. Modi voluptas velit delectus itaque amet
+                eius neque aliquam natus! Consequatur, deleniti?
+              </p>
+              <small>küçük detaylar</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">List Group Başlığı</h5>
+                <small class="text-muted"> 1 gün önce</small>
+              </div>
+              <p class="mb-1">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perspiciatis obcaecati autem illo omnis dolorum accusamus nisi
+                aliquam dignissimos. Modi voluptas velit delectus itaque amet
+                eius neque aliquam natus! Consequatur, deleniti?
+              </p>
+              <small class="text-muted">küçük detaylar</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">List Group Başlığı</h5>
+                <small class="text-muted"> 1 gün önce</small>
+              </div>
+              <p class="mb-1">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perspiciatis obcaecati autem illo omnis dolorum accusamus nisi
+                aliquam dignissimos. Modi voluptas velit delectus itaque amet
+                eius neque aliquam natus! Consequatur, deleniti?
+              </p>
+              <small class="text-muted">küçük detaylar</small>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-3">
+        <div class="col">
+          <h1 class="text-center my-5">Tab Panel</h1>
+          <div role="tabpanel">
+            <div class="list-group" role="tablist" id="myTabList">
+              <a
+                href="#home"
+                class="list-group-item list-group-item-action active"
+                data-bs-toggle="list"
+              >
+                Anasayfa
+              </a>
+              <a
+                href="#profile"
+                class="list-group-item list-group-item-action"
+                data-bs-toggle="list"
+              >
+                Profil
+              </a>
+              <a
+                href="#messages"
+                class="list-group-item list-group-item-action"
+                data-bs-toggle="list"
+              >
+                Mesajlar
+              </a>
+              <a
+                href="#settings"
+                class="list-group-item list-group-item-action"
+                data-bs-toggle="list"
+              >
+                Ayarlar
+              </a>
+            </div>
+            <div class="tab-content">
+              <div class="tab-pane active" id="home" role="tabpanel1">
+                Anasayfa Lorem, ipsum dolor sit amet consectetur adipisicing
+                elit. Consequatur fugit asperiores quos. Illum, alias quas.
+                Error, in incidunt atque, necessitatibus, beatae voluptas
+                blanditiis sint ullam odio aspernatur fugiat quia odit?
+              </div>
+              <div class="tab-pane" id="profile" role="tabpanel2">
+                Profil Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Autem sequi rem ut nesciunt et, voluptatum atque veritatis quis,
+                iusto sint sapiente ipsa, minima quibusdam dignissimos
+                laboriosam omnis reiciendis. Distinctio, accusantium?
+              </div>
+              <div class="tab-pane" id="messages" role="tabpanel3">
+                Messajlar Lorem ipsum dolor sit amet consectetur, adipisicing
+                elit. Excepturi delectus accusamus libero fugit, animi esse
+                porro quisquam eligendi mollitia repellendus? Iusto labore omnis
+                a voluptatibus voluptates quidem? Numquam, voluptatum. Cum?
+              </div>
+              <div class="tab-pane" id="settings" role="tabpanel4">
+                Ayarlar Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Culpa dolorum sequi eaque enim quia dignissimos, deserunt
+                eveniet iusto ducimus ex itaque laudantium et quod impedit
+                fugiat, numquam quo voluptas eligendi.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1>
+        --------------------------------------------------------------------
+      </h1>
+      <div class="row">
+        <div class="col-4">
+          <div class="list-group" id="myTabList" role="tablist">
+            <a
+              href="#list-home"
+              class="list-group-item list-group-item-action"
+              id="home"
+              data-bs-toggle="list"
+              role="tab"
+              aria-controls="list-home"
+            >
+              Anasayfa
+            </a>
+            <a
+              href="#list-profile"
+              class="list-group-item list-group-item-action"
+              id="profile"
+              data-bs-toggle="list"
+              role="tab"
+              aria-controls="list-profile"
+            >
+              Profil
+            </a>
+            <a
+              href="#list-messages"
+              class="list-group-item list-group-item-action"
+              id="messages"
+              data-bs-toggle="list"
+              role="tab"
+              aria-controls="list-messages"
+            >
+              Mesajlar
+            </a>
+            <a
+              href="#list-settings"
+              class="list-group-item list-group-item-action"
+              id="settings"
+              data-bs-toggle="list"
+              role="tab"
+              aria-controls="list-settings"
+            >
+              Ayarlar
+            </a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="tab-content" id="tabContent">
+            <div
+              class="tab-pane fade show"
+              id="list-home"
+              role="tabpanel1"
+              aria-labelledby="home"
+            >
+              <strong>Anasayfa </strong>Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Architecto reprehenderit laboriosam provident
+              omnis fugit molestias temporibus doloremque adipisci ut. Itaque
+              omnis aspernatur nulla necessitatibus adipisci, repudiandae
+              aperiam veniam quaerat dolorum?
+            </div>
+            <div
+              class="tab-pane fade show"
+              id="list-profile"
+              role="tabpanel1"
+              aria-labelledby="profile"
+            >
+              <strong>Profil </strong>Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Architecto reprehenderit laboriosam provident
+              omnis fugit molestias temporibus doloremque adipisci ut. Itaque
+              omnis aspernatur nulla necessitatibus adipisci, repudiandae
+              aperiam veniam quaerat dolorum?
+            </div>
+            <div
+              class="tab-pane fade show"
+              id="list-messages"
+              role="tabpanel1"
+              aria-labelledby="messages"
+            >
+              <strong>Mesajlar </strong>Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Architecto reprehenderit laboriosam provident
+              omnis fugit molestias temporibus doloremque adipisci ut. Itaque
+              omnis aspernatur nulla necessitatibus adipisci, repudiandae
+              aperiam veniam quaerat dolorum?
+            </div>
+            <div
+              class="tab-pane fade show"
+              id="list-settings"
+              role="tabpanel1"
+              aria-labelledby="settings"
+            >
+              <strong>Ayarlar </strong>Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Architecto reprehenderit laboriosam provident
+              omnis fugit molestias temporibus doloremque adipisci ut. Itaque
+              omnis aspernatur nulla necessitatibus adipisci, repudiandae
+              aperiam veniam quaerat dolorum?
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
